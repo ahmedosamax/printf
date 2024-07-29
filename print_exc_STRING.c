@@ -27,7 +27,7 @@ int printf_exc_STRING(va_list ptr)
 				_putchar('0');
 				L++;
 			}
-			L = L + printf_HEX_aux(cs);
+			L = L + printf_HEXA(cs);
 		}
 		else
 		{

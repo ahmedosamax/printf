@@ -26,6 +26,6 @@ int printf_PTR(va_list ptr)
 	x = (unsigned long int)p;
 	_putchar('0');
 	_putchar('x');
-	y = printf_hex_aux(x);
+	y = printf_HEXA(x);
 	return (y + 2);
 }
