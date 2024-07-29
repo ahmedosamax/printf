@@ -103,4 +103,4 @@ int is_number(char);
 
 long int size_of_number(long int num, int s);
 long int size_of_unsigned_int(unsigned long int num, int s);
-#endif 
+#endif
